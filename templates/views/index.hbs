@@ -1,0 +1,46 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Welcome</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+    <script src="/web-server/static/js/n.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>
+        hello
+      </h1>
+    </div>
+  </body>
+</html> --}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+    <script src="/web-server/static/js/app.js"></script>
+      <div class="main-content">
+         {{>header}}
+    </div>
+
+    <div style="padding-top:50px">
+      
+      <h1>
+        Dynamic website is up
+      </h1>
+      
+      <h2>
+        BY {{name}}
+      </h2>
+  
+    </div>
+    {{>footer}}
+</body>
+</html>
